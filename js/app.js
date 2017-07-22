@@ -8,7 +8,7 @@ Also don't forget to run your live-server for this assignment.*/
 Rating: 5 Stars*/
 
 var rating = document.getElementById("rating1");
-rating.innerHTML = "5 Stars";
+rating.innerHTML = "Rating: 5 Stars";
 
 
 //2. Sunrise Restaurant
@@ -17,6 +17,10 @@ rating.innerHTML = "5 Stars";
 Price: $$$
 Adress: 525 Kapahulu Ave, Honolulu, HI 96815*/
 
+var price2 = document.getElementById("price2");
+price2.innerHTML = "$$$";
+var sunriseAddy = document.getElementById("addy2");
+sunriseAddy.innerHTML = "Adress: 525 Kapahulu Ave, Honolulu, HI 96815";
 
 //3. Ramen Nakamura
 /*Literally, where did the time go? Ramen Nakamura is missing the hours section! This mistake is timeless.
