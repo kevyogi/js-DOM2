@@ -31,6 +31,10 @@ Hours: 6pm - 12am Sun - Sat
 
 Append this div element to the div id "text3"*/
 
+var divTime = document.createElement("div");
+divTime.id = "hours3";
+divTime.innerHTML = "Hours: 6pm - 12am Sun - Sat";
+text3.appendChild(divTime);
 
 //4. Kam Bowl
 /*Kam Bowl got no spare time to update their info and business is suffering! Help them regain their kingpin status again.
