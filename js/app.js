@@ -46,6 +46,11 @@ Price: $$$
 Append this element to the div with the id of 
 "text4"*/
 
+var kamDiv = document.createElement("div");
+kamDiv.id = "price4";
+kamDiv.innerHTML = "Price: $$$";
+text4.appendChild(kamDiv);
+
 /*Create a new div element with an id of "addy4". Inside this div element, give it the following info:
 
 Address: 1620 N. School St, Honolulu, HI 96817
@@ -53,13 +58,23 @@ Address: 1620 N. School St, Honolulu, HI 96817
 Append this element to the div with the id of 
 "text4"*/
 
+var kamAddy = document.createElement("div");
+kamAddy.id = "addy4";
+kamAddy.innerHTML = "Address: 1620 N. School St, Honolulu, HI 96817";
+text4.appendChild(kamAddy);
+
 /*Create a new div element with an id of "hours4". Inside this div element, give it the following info:
 
-Hours: 9am - 10pm Sun - Sat
+Address: 1620 N. School St, Honolulu, HI 96817
 
 Append this element to the div with the id of 
 "text4"
 */
+
+var kamHours = document.createElement("div");
+kamHours.id = "hours4";
+kamHours.innerHTML = "Hours: 5pm - 12am Mon - Sat";
+text4.appendChild(kamHours);
 
 /*Create a paragraph element with an id of "update4". Inside this paragraph element, give it the following info:
 
@@ -67,6 +82,10 @@ I'd leave a blank space for this oxtail soup!
 
 Append this element to the div id of "comment4"*/
 
+var kamCom = document.createElement("div");
+kamCom.id = "update4";
+kamCom.innerHTML = "I'd leave a blank space for this oxtail soup!";
+comment4.appendChild(kamCom);
 
 //5. The Death Star Cafe
 /*The empire strikes back with a new and improved oxtail soup offering. Help the dark side win back customers by executing the following commands:*/
@@ -89,4 +108,36 @@ hours5: Hours: We never close.
 
 Append the div elements to the div id "text5"
 */
+var newName = document.createElement("div");
+newName.id = "name5";
+newName.innerHTML = "5. The Death Star Cafe";
+
+var newRating = document.createElement("div");
+newRating.id = "rating5";
+newRating.innerHTML = "Rating: 2 Stars";
+
+var newPrice = document.createElement("div");
+newPrice.id = "price5";
+newPrice.innerHTML = "Price: $$";
+
+var newAddy = document.createElement("div");
+newAddy.id = "addy5";
+newAddy.innerHTML = "Address: A galaxy far, far away.";
+
+var newHours = document.createElement("div");
+newHours.id = "hours5";
+newHours.innerHTML = "Hours: We never close.";
+
+text5.appendChild(newName);
+text5.appendChild(newRating);
+text5.appendChild(newPrice);
+text5.appendChild(newAddy);
+text5.appendChild(newHours);
+
+
+
+
+
+
+
 
